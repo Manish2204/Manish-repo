@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
-  return <div>hgjfhgjf</div>;
+  return <div className="bg-slate-400">hgjfhgjf</div>;
 }
