@@ -20,11 +20,11 @@ const ClientSideRendering = () => {
   console.log(product, "ss");
   return (
     <div className="100">
-      <ul>
-        {product.map((ele) => (
-          <li key={ele.id}>{ele.title}</li>
-        ))}
-      </ul>
+      {/* <ul> */}
+      {product.map((ele) => (
+        <li key={ele.id}>{ele.title}</li>
+      ))}
+      {/* </ul> */}
     </div>
   );
 };

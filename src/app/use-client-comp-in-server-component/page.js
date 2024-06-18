@@ -9,7 +9,7 @@ const fetchingData = async () => {
 };
 const Combine = async () => {
   let data = await fetchingData();
-  //   console.log(GetPriceButton, "kolkl");
+
   return (
     <div>
       {data.products.map((ele) => (
